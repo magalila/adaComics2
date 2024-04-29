@@ -222,7 +222,7 @@ const moonIcon = document.getElementById("moonIcon");
 function toggleTheme() {
   if (body.dataset.bsTheme === "light") {
     body.dataset.bsTheme = "dark";
-    body.style.backgroundImage = "url('image/Venom.jpg')";
+    body.style.backgroundImage = "url('image/venom.jpg')";
     sunIcon.style.display = "none";
     moonIcon.style.display = "inline";
   } else {
